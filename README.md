@@ -1,51 +1,52 @@
-# React + TypeScript + Vite
+🧙‍♂️ DigitWiz – The Wizard of Web Calculations
+Smart. Swift. Spellbinding.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+✨ Where modern web magic meets mathematical precision.
 
-Currently, two official plugins are available:
+🎯 What is DigitWiz?
+DigitWiz is not just another calculator — it's a modern, slick, and responsive web-based calculator crafted with React ⚛️, TypeScript 🔠, and the blazing-fast Vite ⚡. Designed with scalability and clarity in mind, it brings together the beauty of clean UI and the power of typed logic to deliver seamless, fast, and stylish math operations in your browser.
+Whether you're crunching quick numbers or looking for an open-source project that showcases cutting-edge frontend practices, DigitWiz is built to impress and grow.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+✨ Key Features (Work in Progress, but full of promise!)
+🧩 Component-Based Architecture
+Clean, modular React components make the app easy to scale and maintain.
+🔠 TypeScript at the Core
+Type safety ensures fewer bugs and more predictable code — because wizards hate chaos.
+⚡ Vite for Development Speed
+No more sluggish builds — Vite brings ultra-fast refresh and lightning-hot reloads.
+🎨 Tailwind CSS Styling
+Responsive, utility-first design system for rapid and polished layouts.
+💅 Mantine UI Integration
+Beautiful, accessible UI components out-of-the-box to save time and enhance UX.
+🧹 ESLint Rules Enforced
+Write cleaner, more consistent code with built-in linting magic.
 
-## Expanding the ESLint configuration
+🛠️ Tech Stack
+Framework: React + TypeScript
+Build Tool: Vite
+Styling: Tailwind CSS + Mantine UI
+Linting: ESLint
+Project Type: SPA (Single Page Application)
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+🚀 Getting Started
+Wanna run this spellbinding app locally? Just follow these scrolls of incantation:
 
-- Configure the top-level `parserOptions` property like this:
+When you're ready to publish your spell
+npm run build
+🔮 Upcoming Spells (Planned Features)
+💡 Basic Math Operations
+Addition, subtraction, multiplication, division — the core powers.
+📐 Advanced Functions
+Square roots, percentages, exponents, trigonometry — math for the wise.
+🧠 Smart Error Handling
+Clear messages for invalid inputs (no confusing "undefined" curses).
+🎨 Intuitive UI/UX
+Elegant interface with animations and smooth interactions.
+🧪 Tested to the Core
+Robust unit and integration tests using testing libraries to ensure reliability.
+🚧 Project Status
+In Development – The UI and architecture are set, and the core logic spells are currently being brewed. Stay tuned for magic.
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
-
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
-
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
-
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
-# calc-fe
+👩‍💻 Author
+Crafted with ❤️ by Dhananjay singh
+Open to contributions, spells, and feature suggestions! 🌟
